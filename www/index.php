@@ -12,3 +12,7 @@ include 'connectbd.php';
 <br>
 <input  value="Войти" type="submit">
 </form>
+<?
+session_start();
+echo $_SESSION['userExist'];
+?>
